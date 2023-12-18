@@ -221,3 +221,90 @@ body {
 .fifth-section-block {
     padding: 124px 654px 124px 96px;
 }
+
+/* *BENEFITS */
+
+.benefits-section {
+    height: 210px;
+    margin: 160px auto 0;
+    background-color: white;
+}
+
+.benefits-section-block {
+    display: flex;
+}
+
+.benefit-card-1 {
+    background: white url("../imgs/icon-1.svg") no-repeat center top/auto 35px;
+    padding: 75px 30px 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 17px;
+}
+
+.benefit-title {
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.benefit-card-2 {
+    background: white url("../imgs/icon-2.svg") no-repeat center top/auto 35px;
+    padding: 75px 30px 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 17px;
+}
+
+.benefit-card-3 {
+    background: white url("../imgs/icon-3.svg") no-repeat center top/auto 35px;
+    padding: 75px 30px 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 17px;
+}
+
+/* *NUMBERS */
+
+.numbers-section {
+    height: 134px;
+    margin: 160px auto 0;
+}
+
+.numbers-section-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.number-title {
+    color: #333;
+    font-size: 59px;
+    line-height: 90px;
+}
+
+.numbers-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* *SECTION 6 */
+
+
+
+/* *SECTION 7 */
+
