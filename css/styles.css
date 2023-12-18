@@ -63,7 +63,6 @@ body {
 }
 
 
-
 /* *SECTION 1 */
 
 .bg-pink {
@@ -117,7 +116,7 @@ body {
     background: rgba(252, 10, 126, 1);
 }
 
-.arrow  {
+.arrow {
     background: url("../imgs/arrow.svg") no-repeat center 91%/9px 40px;
 }
 
@@ -171,7 +170,7 @@ body {
 }
 
 .text-box {
-    padding:0 86px 3px 58px;
+    padding: 0 86px 3px 58px;
     width: 450px;
     display: flex;
     flex-wrap: wrap;
@@ -304,7 +303,125 @@ body {
 
 /* *SECTION 6 */
 
+.sixth-section {
+    height: 414px;
+    margin: 160px auto 0;
+    background-color: white;
+}
+
+.sixth-section-box {
+    background: white url("../imgs/bg-6.jpg") no-repeat 90% center/auto 414px;
+}
+
+.sixth-section-block {
+    padding: 17px 606px 17px 96px;
+}
+
+.text-box-2 {
+    padding: 0 60px 3px;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
 
 
 /* *SECTION 7 */
 
+.seventh-section {
+    height: 414px;
+    margin: 160px auto 0;
+    background-color: white;
+}
+
+.seventh-section-box {
+    background: white url("../imgs/bg-7.jpg") no-repeat 10% center/auto 414px;
+}
+
+.seventh-section-block {
+    padding: 40px 96px 40px 606px;
+}
+
+/* *QUOTE SECTION */
+
+.quotes-section {
+    height: 375px;
+    margin: 160px auto 0;
+    background-color: white;
+}
+
+.quotes-section-box {
+    padding: 0 240px;
+}
+
+.quotes-section-block {
+    width: 720px;
+}
+
+.quote-card {
+    color: #6B6B6B;
+    background: white url("../imgs/quote.svg") no-repeat center top/auto 54px;
+    padding: 117px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 17px;
+}
+
+.quote-text {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.quote-name {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.ref {
+    font-weight: 700;
+    position: relative;
+}
+
+.ref::before {
+    content: '';
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    margin-left: -50px;
+    width: 30px;
+    height: 1px;
+    background: rgba(211, 211, 211, 1);
+}
+
+/* *SPONSORS SECTION */
+
+.sponsors-section {
+    width: 1440px;
+    height: 115px;
+    margin: 185px auto 0;
+    background-color: white;
+}
+
+.sponsors-section-block {
+    padding: 40px 96px;
+    background: white url("../imgs/sponsors.svg") no-repeat center/1008px 35px;
+    color: transparent;
+}
+
+/* *PHONES SECTION */
+
+.phones-section {
+    height: 518px;
+    margin: 80px auto 0;
+    background: white url("../imgs/bg-8.webp") no-repeat center 100%/100vw auto;
+    color: transparent;
+}
