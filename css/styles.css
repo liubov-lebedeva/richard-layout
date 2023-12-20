@@ -425,3 +425,47 @@ body {
     background: white url("../imgs/bg-8.webp") no-repeat center 100%/100vw auto;
     color: transparent;
 }
+
+/* *WAVY PINK BG */
+
+.wavy-pink-section {
+    height: 475px;
+    margin: 0 auto;
+    background: linear-gradient(287deg, rgba(69, 14, 75, 1) 0%, rgba(60, 12, 65, 1) 25%, rgba(207, 0, 99, 0) 80%) rgba(207, 0, 99, 1);
+
+}
+
+.waves {
+    height: 475px;
+    background-image: url("../imgs/wave.svg");
+    background-repeat: repeat-y;
+    background-size: 100vw auto;
+}
+.download-box {
+    padding: 120px 0;
+}
+.download-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    gap: 40px;
+}
+
+.common-title {
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+}
+
+.link {
+}
+
+.btn-color {
+}
+
+.btn-outline {
+}
