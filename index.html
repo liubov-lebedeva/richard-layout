@@ -8,19 +8,21 @@
 <body>
 <header class="header">
     <div class="container header-box">
-        <img src="imgs/icons/richard.svg" alt="Richard" width="120" height="43">
+        <a href="#" class="header-link">
+            <img src="imgs/icons/richard.svg" alt="Richard" width="120" height="43">
+        </a>
         <ul class="header-menu">
             <li>
-                <a href="">about</a>
+                <a class="header-link" href="#">about</a>
             </li>
             <li>
-                <a href="">features</a>
+                <a class="header-link" href="#">features</a>
             </li>
             <li>
-                <a href="">how to use</a>
+                <a class="header-link" href="#">how to use</a>
             </li>
             <li>
-                <a href="">download</a>
+                <a class="header-link" href="#">download</a>
             </li>
         </ul>
     </div>
@@ -36,7 +38,9 @@
                 </div>
             </div>
         </div>
-        <div class="arrow"></div>
+        <svg class="arrow">
+            <use href="imgs/icons/sprite.svg#arrow"></use>
+        </svg>
     </section>
     <section class="bg-black">
         <div class="container second-section-box">
@@ -182,9 +186,43 @@
             </div>
         </div>
     </section>
+    <section class="email">
+        <div class="container email-box">
+            <div class="email-block">
+                <h2 class="common-title">Get updates from Richard</h2>
+                <p class="common-text margin-b-20">New course alerts, discounts and free lessons</p>
+                <div class="email-window">
+                    <div class="enter">Enter your email</div>
+                    <a class="subscribe link" href="#">Subscribe</a>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 <footer class="footer">
-
+    <div class="footer-box container">
+        <img src="imgs/icons/footer-richard.svg" alt="richard" width="136" height="104">
+        <ul class="footer-menu">
+            <li>
+                <a class="footer-link" href="#">email</a>
+            </li>
+            <li>
+                <a class="footer-link" href="#">instagram</a>
+            </li>
+            <li>
+                <a class="footer-link" href="#">facebook</a>
+            </li>
+            <li>
+                <a class="footer-link" href="#">twitter</a>
+            </li>
+            <li>
+                <a class="footer-link" href="#">image license info</a>
+            </li>
+            <li>
+                <a class="footer-link" href="#">powered by webflow</a>
+            </li>
+        </ul>
+    </div>
 </footer>
 </body>
 </html>
