@@ -71,6 +71,7 @@ body {
     background: linear-gradient(287deg, rgba(69, 14, 75, 1) 0%, rgba(60, 12, 65, 1) 25%, rgba(207, 0, 99, 0) 80%) rgba(207, 0, 99, 1);
     color: white;
     position: relative;
+    z-index: -1;
 }
 
 .capital {
