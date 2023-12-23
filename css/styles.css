@@ -157,6 +157,7 @@ body {
     margin: 0 auto;
     padding: 80px 0;
     background: #fff;
+    position: relative;
 }
 
 .third-section-box {
@@ -300,67 +301,58 @@ body {
 
 /* *SECTION 6 */
 
-.sixth-section {
-    height: 414px;
-    margin: 160px auto 0;
-    background-color: white;
-}
-
 .sixth-section-box {
-    background: white url("../imgs/bg-6.jpg") no-repeat 90% center/auto 414px;
+    margin: 0 auto;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.sixth-section-block {
-    padding: 17px 606px 17px 96px;
+.bg-6 {
+    margin-left: 20px;
+    flex: 0 0 525px;
 }
 
 .text-box-2 {
-    padding: 0 60px 3px;
-    width: 450px;
+    padding: 0 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
+    flex: 0 0 450px;
 }
 
 
 /* *SECTION 7 */
 
-.seventh-section {
-    height: 414px;
-    margin: 160px auto 0;
-    background-color: white;
-}
-
 .seventh-section-box {
-    background: white url("../imgs/bg-7.jpg") no-repeat 10% center/auto 414px;
+    margin: 0 auto;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.seventh-section-block {
-    padding: 40px 96px 40px 606px;
+.bg-7 {
+    margin-right: 20px;
+    flex: 0 0 525px;
 }
 
 /* *QUOTE SECTION */
 
 .quotes-section {
-    height: 375px;
-    margin: 160px auto 0;
+    padding-top: -80px;
     background-color: white;
 }
 
-.quotes-section-box {
-    padding: 0 240px;
-}
-
-.quotes-section-block {
-    width: 720px;
-}
-
 .quote-card {
+    max-width: 700px;
+    margin: 0 auto;
     color: #6B6B6B;
     background: white url("../imgs/icons/quote.svg") no-repeat center top/auto 54px;
-    padding: 117px 10px 10px;
+    padding-top: 120px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -374,13 +366,13 @@ body {
 }
 
 .quote-name {
-    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 70px;
     font-size: 16px;
     line-height: 30px;
+    padding: 5px 0;
 }
 
 .ref {
@@ -397,6 +389,25 @@ body {
     width: 30px;
     height: 1px;
     background: rgb(211, 211, 211);
+}
+
+.quote-card::before,
+.quote-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 7px;
+    height: 7px;
+    margin-left: -20px;
+    background: #222;
+}
+
+.quote-card::after {
+    background: rgba(34, 34, 34, 0.4);
+    left: 50%;
+    margin-left: 0;
+
 }
 
 /* *SPONSORS SECTION */
