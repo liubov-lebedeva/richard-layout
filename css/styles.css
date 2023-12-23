@@ -76,11 +76,14 @@ body {
 
 .capital {
     min-height: 100vh;
-    background: url("../imgs/bg-1.webp") no-repeat right 80%/650px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    padding: 100px 0;
+    align-items: center;
+    padding: 120px 0;
+}
+
+.capital-box {
+    flex: 0 0 677px;
 }
 
 .capital-title {
