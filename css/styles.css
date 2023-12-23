@@ -35,6 +35,7 @@ body {
     z-index: 10;
 }
 
+
 .container {
     max-width: 1300px;
     margin: 0 auto;
@@ -74,17 +75,12 @@ body {
 }
 
 .capital {
-    min-height: 680px;
-    background: url("../imgs/bg-1.webp") no-repeat 90% 15%/contain;
-}
-
-.capital-text {
+    min-height: 100vh;
+    background: url("../imgs/bg-1.webp") no-repeat right 80%/650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    padding: 150px 680px 0 150px;
-
+    padding: 100px 0;
 }
 
 .capital-title {
@@ -102,7 +98,7 @@ body {
 .link {
     text-decoration: none;
     text-transform: capitalize;
-    display: block;
+    display: inline-block;
     color: white;
     font-size: 16px;
     line-height: 26px;
@@ -128,17 +124,13 @@ body {
 .bg-black {
     min-height: 960px;
     background: rgba(27, 27, 27, 1) url("../imgs/bg-2.webp") no-repeat center 100%/1100px auto;
+    padding: 50px 0;
 }
 
 .second-section-box {
-    max-width: 700px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
+    max-width: 600px;
     text-align: center;
-    padding: 120px 45px 55px;
+    padding: 55px 0;
 }
 
 .common-desc {
@@ -147,6 +139,7 @@ body {
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    margin-bottom: 25px;
 }
 
 .common-title {
