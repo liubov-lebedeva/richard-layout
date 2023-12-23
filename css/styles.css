@@ -463,11 +463,7 @@ body {
 .email {
     background: #1B1B1B;
     margin: 0 auto;
-    height: 705px;
-}
-
-.email-box {
-    padding: 80px 0;
+    padding: 80px 0 310px;
 }
 
 .email-block {
@@ -475,12 +471,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 0 55px;
-    gap: 20px;
+    padding: 40px 0;
 }
 
-.margin-b-20 {
-    margin-bottom: 20px;
+.margin-b-40 {
+    margin-bottom: 40px;
 }
 
 .email-window {
@@ -492,32 +487,42 @@ body {
     line-height: 26px;
 }
 
+.enter, .subscribe {
+    padding: 22px 0;
+}
+
 .enter {
-    padding: 22px 155px 22px 3px;
     background: white;
-    width: 311px;
+    flex: 1 0 310px;
+    border-radius: 3px 0px 0px 3px;
+    border: 0;
+    outline: 0;
+    cursor: text;
+}
+
+input::placeholder {
+    padding: 0 22px;
+    color: #1C1C1C;
 }
 
 .subscribe {
-    padding: 22px 0;
     background: rgb(252, 10, 126);
-    color: #1C1C1C;
-    border-radius: 0;
-    width: 154px;
+    flex: 1 0 150px;
+    border-radius: 0px 3px 3px 0px;
+    cursor: pointer;
 }
 
 /* *FOOTER */
 
 .footer {
+    padding: 20px 0 40px;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 242px;
 }
 
 .footer-box {
-    padding: 20px 0 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -529,7 +534,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 30px 15px;
+    padding: 30px 0;
 }
 
 .footer-link {
