@@ -36,7 +36,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -76,9 +76,6 @@ body {
 .capital {
     min-height: 680px;
     background: url("../imgs/bg-1.webp") no-repeat 90% 15%/contain;
-    position: absolute;
-    top: 120px;
-    right: 0;
 }
 
 .capital-text {
@@ -160,6 +157,11 @@ body {
 
 
 /* *SECTION 3 */
+
+.subcontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 .third-section {
     height: 637px;
