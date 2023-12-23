@@ -498,7 +498,7 @@ body {
 .enter {
     background: white;
     flex: 1 0 310px;
-    border-radius: 3px 0px 0px 3px;
+    border-radius: 3px 0 0 3px;
     border: 0;
     outline: 0;
     cursor: text;
@@ -512,7 +512,7 @@ input::placeholder {
 .subscribe {
     background: rgb(252, 10, 126);
     flex: 1 0 150px;
-    border-radius: 0px 3px 3px 0px;
+    border-radius: 0 3px 3px 0;
     cursor: pointer;
 }
 
