@@ -489,6 +489,8 @@ body {
     color: #1C1C1C;
     font-size: 16px;
     line-height: 26px;
+    max-width: 450px;
+    width: 100%;
 }
 
 .enter, .subscribe {
@@ -497,7 +499,7 @@ body {
 
 .enter {
     background: white;
-    flex: 1 0 310px;
+    flex: 1 1 310px;
     border-radius: 3px 0 0 3px;
     border: 0;
     outline: 0;
@@ -511,7 +513,7 @@ input::placeholder {
 
 .subscribe {
     background: rgb(252, 10, 126);
-    flex: 1 0 150px;
+    flex: 1 1 150px;
     border-radius: 0 3px 3px 0;
     cursor: pointer;
 }
